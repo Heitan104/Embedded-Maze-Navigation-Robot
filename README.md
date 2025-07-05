@@ -1,23 +1,50 @@
-# Embedded-Maze-Navigation-Robot
-This project showcases a low-level embedded system programmed in HCS12 assembly to control an autonomous robot that navigates a black-line maze. Using light sensors and wall detection logic, the bot intelligently follows the line and backtracks when encountering dead ends—ultimately finding its way to the maze's end.
+# 🤖 Embedded Maze Navigation Robot (HCS12 Assembly)
 
-🔧 Features
-Light sensor-based line tracking with calibrated thresholds
+An embedded systems project using the **HCS12 microcontroller** to program an autonomous robot that navigates a black-line maze using light sensors and wall detection. Written entirely in **assembly language**, the robot uses a finite state machine (FSM) to follow the line, avoid dead ends, and reach the maze's goal efficiently.
 
-Finite State Machine (FSM) for clean state management and navigation logic
+---
 
-Wall detection and directional backtracking to avoid dead ends
+## 🚀 Features
 
-Performance optimization resulting in 90%+ line-following accuracy and reduced idle time
+- ✅ Light sensor-based black line detection and tracking  
+- 🔁 FSM-driven navigation with real-time state transitions  
+- 🧱 Wall detection and backtracking to avoid loops/dead ends  
+- ⚡ Optimized performance:  
+  - 90%+ on-track accuracy (up from ~60% after tuning)  
+  - 50% reduction in idle states during maze traversal  
 
-🛠 Technologies
-HCS12 Microcontroller
+---
 
-Assembly Language (ASM)
+## 🛠️ Technologies Used
 
-CodeWarrior IDE
+- **HCS12 Microcontroller**
+- **Assembly Language (ASM)**
+- **CodeWarrior IDE**
+- **FSM Design Principles**
+- **Digital Light Sensors**
 
-FSM Design Principles
+---
 
-👥 Team & Role
-Developed in a group of 3. I led the design of the navigation logic and optimization of the state machine for improved performance and responsiveness.
+All Working code can be found in /Sources/main.asm
+
+
+
+## 👥 Team & My Role
+
+Developed as part of a 3-person team for a university lab.  
+I led the FSM design and optimization, and contributed to sensor calibration and movement logic.
+
+---
+
+## 🧠 Learnings
+
+- Low-level hardware interfacing and real-time control using assembly
+- Designing efficient state machines for embedded navigation tasks
+- Calibrating noisy analog inputs (light sensors) for reliable decision-making
+
+---
+
+## 📬 Contact
+
+For questions or collaboration ideas:  
+**Heitan Kandasamy** – [heitan104@gmail.com](mailto:heitan104@gmail.com) – [@Heitan104](https://github.com/Heitan104)
